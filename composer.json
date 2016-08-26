@@ -16,5 +16,10 @@
             "email": "diego@hernandev.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Codecasts\\Support\\": "src"
+        }
+    },
     "minimum-stability": "stable"
 }
