@@ -5,7 +5,8 @@
     "require": {
         "artesaos/migrator": "^1.1",
         "artesaos/warehouse": "^2.0",
-        "artesaos/shield": "^2.0"
+        "artesaos/shield": "^2.0",
+        "codecasts/presenter": "^1.0"
     },
     "license": "MIT",
     "authors": [
