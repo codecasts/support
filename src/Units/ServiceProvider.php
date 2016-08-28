@@ -3,12 +3,12 @@
 namespace Codecasts\Support\Units;
 
 use Illuminate\Support\Collection;
-use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\ServiceProvider as LaravelserviceProvider;
 
 /**
  * Class UnitServiceProvider.
  */
-class UnitServiceProvider extends ServiceProvider
+class ServiceProvider extends LaravelServiceProvider
 {
     /**
      * @var array List of Unit Service Providers to Register
