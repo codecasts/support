@@ -69,7 +69,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         if ($this->hasTranslations) {
             $this->loadTranslationsFrom(
-                $this->domainPath('Resources/Lang'),
+                $this->unitPath('Resources/Lang'),
                 $this->alias
             );
         }
@@ -82,7 +82,7 @@ class ServiceProvider extends LaravelServiceProvider
     {
         if ($this->hasViews) {
             $this->loadViewsFrom(
-                $this->domainPath('Resources/Views'),
+                $this->unitPath('Resources/Views'),
                 $this->alias
             );
         }
